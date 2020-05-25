@@ -38,4 +38,6 @@ router.post("/save_profile", userController.saveProfile);
 
 router.get("/member_list", userController.memberList);
 
+router.get("/follow/:id", userController.followMember);
+
 module.exports = router;
